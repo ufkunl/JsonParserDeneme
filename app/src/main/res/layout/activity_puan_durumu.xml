@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.ufukunal.jsonparserdeneme.PuanDurumuActivity">
+
+    <TextView
+        android:id="@+id/tvPuanDurumu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/puan_durumu_baslik"
+        android:padding="10dp"
+        android:text="PUAN DURUMU"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPuanDurumu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPuanDurumu"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/puan_durumu_background"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TableLayout
+                android:id="@+id/baslik"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:text="TAKIM ADI"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/oynananMac"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="O"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/galibiyet"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="G"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/beraberlik"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="B"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/maglubiyet"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="M"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/atilanGol"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="A"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/yenilenGol"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Y"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/Puan"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="P"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/avaraj"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Av"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/E"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="E"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/PuanDurumu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"></android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>
